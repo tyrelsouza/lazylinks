@@ -59,9 +59,9 @@ links:
       - text: Xbox Gamertag
         icon: fa-brands fa-xbox
         copy: tacidsky
-      #      - text: Switch Friendcode
-      #        icon: fa-solid fa-gamepad
-      #        copy: "SW-1200"
+      - text: Switch Friendcode
+        icon: fa-solid fa-gamepad
+        copy: "SW-1711-7753-4091"
 
 
   - title: Socials
