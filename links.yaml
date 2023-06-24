@@ -7,6 +7,12 @@ config:
   background_opacity: 0.7
 
 links:
+  - title: Personal
+    links:
+      - text: Pronouns and Pronounciation
+        icon: fa fa-person
+        href: https://name.pn/tyrel-souza
+    
   - title: Sites
     links:
       - text: Blog

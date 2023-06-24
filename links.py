@@ -4,7 +4,8 @@ import yaml
 from mako.template import Template
 from dotdict import dotdict
 
-if __name__ == "__main__":
+
+def generate_links():
     raw_data = yaml.safe_load(open("links.yaml").read())
     raw_data["metadata"] = {"last_updated": datetime.now()}
     data = dotdict(raw_data)
@@ -15,3 +16,6 @@ if __name__ == "__main__":
     with open("output/index.html", "w") as outfile:
         outfile.write(template.render(**data))
 
+
+if __name__ == "__main__":
+    generate_links()

@@ -1,0 +1,5 @@
+deploy_path: output/
+ssh_user: user
+ssh_host: example.com
+ssh_port: 22
+ssh_path: /www/example.com/links/
