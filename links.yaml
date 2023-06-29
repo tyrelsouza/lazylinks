@@ -38,6 +38,14 @@ links:
         icon: fa fa-telegram
         copy: "@K3tas"
 
+  - title: Sports
+    links:
+      - text: Strava
+        icon: fa fa-bicycle
+        href: https://tyrel.bike
+      - text: SmashRun
+        icon: fa fa-bicycle
+        href: https://smashrun.com/tyrel
 
   - title: Music
     links:
